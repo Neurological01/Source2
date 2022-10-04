@@ -1,6 +1,6 @@
 --for when people ask for scripts in a discord server
 
-  local ScreenGui = Instance.new("ScreenGui")
+local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = game.CoreGui
 
 local TweenService = game:GetService('TweenService')
