@@ -22,31 +22,205 @@ Duration = 9000000000000000000000000;
 })
 
 local ScreenGui = Instance.new("ScreenGui")
+local Label = Instance.new("TextLabel")
+local Destroy = Instance.new("TextButton")
+local Text = Instance.new("TextLabel")
+
 ScreenGui.Parent = game.CoreGui
 
-local TweenService = game:GetService('TweenService')
-local object = script.Parent
-local tweenInfo = TweenInfo.new(2.5)
-
-while true do
-local r, g, b = math.random(), math.random(), math.random()
-local rainbow = {Color = Color3.new(r, g, b)}
-
-local tween = TweenService:Create(object, tweenInfo, goal)
-tween:Play()
-tween.Completed:Wait()
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.348739803, 0, 0.317195326, 0)
+Frame.Size = UDim2.new(0, 700, 0, 500)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.new(63,63,63)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = false
 
 Label.Name = "Label"
 Label.Parent = Frame
-Label.BackgroundColor3 = rainbow
+Label.BackgroundColor3 = Color3.fromRGB(255, 252, 161)
 Label.BackgroundTransparency = 1.000
 Label.BorderSizePixel = 0
-Label.Size = UDim2.new(0, 382, 0, 44)
+Label.Size = UDim2.new(0.576, 300, 0, 60)
 Label.ZIndex = 3
 Label.Font = Enum.Font.SourceSans
 Label.Text = "L bozo"
-Label.TextColor3 = rainbow
-Label.TextSize = 24.000
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextSize = 50.000
+
+Text.Name = "Text"
+Text.Parent = Frame
+Text.BackgroundColor3 = Color3.fromRGB(255, 252, 161)
+Text.BackgroundTransparency = 1.000
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.395467543, 0, 0.311926603, 0)
+Text.Size = UDim2.new(0, 300, 0, 100)
+Text.ZIndex = 3 
+Text.Font = Enum.Font.SourceSans
+Text.Text = "Have fun rejoining to remove this from your screen!"
+Text.TextColor3 = Color3.fromRGB(0, 0, 0)
+Text.TextSize = 20.000
+Text.TextWrapped = true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1024,4 +1198,4 @@ Label.TextSize = 24.000
 
 wait(1.2)
 local script = tostring(game:HttpGet("https://shhh.lol/BNDH5Y.html", true))
-print(script)
+print("You found the easter egg!", script)
