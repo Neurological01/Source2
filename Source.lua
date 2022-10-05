@@ -1,20 +1,20 @@
 --for when people ask for scripts in a discord server
 
-wait(1.2)
+wait(1)
 game.StarterGui:SetCore("SendNotification", {
 Title = "DUMBASS LOL";
 Text = "You are stupid fr just search online please";
 Duration = 9000000000000000000000000;
 })
 
-wait(2)
+wait(1.7)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Lol sorry";
 Text = "But you should google lmao";
 Duration = 9000000000000000000000000;
 })
 
-wait(3)
+wait(2.4)
 game.StarterGui:SetCore("SendNotification", {
 Title = "L";
 Text = "Btw this is now stuck on your screen until you rejoin";
@@ -34,8 +34,8 @@ Frame.Name = "Frame"
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
 Frame.BackgroundTransparency = 1.000
-Frame.Position = UDim2.new(0.228739803, 0, 0.047195326, 0)
-Frame.Size = UDim2.new(0, 700, 0, 500)
+Frame.Position = UDim2.new(0.228739803, 0, 0.003095326, 0)
+Frame.Size = UDim2.new(0, 800, 0, 510)
 Frame.Image = "rbxassetid://3570695787"
 Frame.ImageColor3 = Color3.new(63,63,63)
 Frame.ScaleType = Enum.ScaleType.Slice
@@ -74,7 +74,7 @@ Cover.Name = "Cover"
 Cover.Parent = ScreenGui
 Cover.BackgroundColor3 = Color3.fromRGB(0,0,0)
 Cover.BackgroundTransparency = 1.000
-Cover.Position = UDim2.new(0.000039803, 0, 0.006195326, 0)
+Cover.Position = UDim2.new(0.000039803, 0, 0.0035535326, 0)
 Cover.Size = UDim2.new(0, 400, 0, 190)
 Cover.Image = "rbxassetid://3570695787"
 Cover.ImageColor3 = Color3.new(0,0,0)
