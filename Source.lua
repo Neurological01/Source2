@@ -23,7 +23,6 @@ Duration = 9000000000000000000000000;
 
 local ScreenGui = Instance.new("ScreenGui")
 local Label = Instance.new("TextLabel")
-local Destroy = Instance.new("TextButton")
 local Text = Instance.new("TextLabel")
 
 ScreenGui.Parent = game.CoreGui
