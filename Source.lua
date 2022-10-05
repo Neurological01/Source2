@@ -22,8 +22,11 @@ Duration = 9000000000000000000000000;
 })
 
 local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
 local Label = Instance.new("TextLabel")
 local Text = Instance.new("TextLabel")
+local Cover = Instance.new("ImageLabel")
+local CoverText =  Instance.new("TextLabel")
 
 ScreenGui.Parent = game.CoreGui
 
@@ -31,7 +34,7 @@ Frame.Name = "Frame"
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
 Frame.BackgroundTransparency = 1.000
-Frame.Position = UDim2.new(0.348739803, 0, 0.317195326, 0)
+Frame.Position = UDim2.new(0.228739803, 0, 0.047195326, 0)
 Frame.Size = UDim2.new(0, 700, 0, 500)
 Frame.Image = "rbxassetid://3570695787"
 Frame.ImageColor3 = Color3.new(63,63,63)
@@ -51,21 +54,49 @@ Label.ZIndex = 3
 Label.Font = Enum.Font.SourceSans
 Label.Text = "L bozo"
 Label.TextColor3 = Color3.fromRGB(0, 0, 0)
-Label.TextSize = 50.000
+Label.TextSize = 60.000
 
 Text.Name = "Text"
 Text.Parent = Frame
 Text.BackgroundColor3 = Color3.fromRGB(255, 252, 161)
 Text.BackgroundTransparency = 1.000
 Text.BorderSizePixel = 0
-Text.Position = UDim2.new(0.395467543, 0, 0.311926603, 0)
+Text.Position = UDim2.new(0.301067543, 0, 0.311926603, 0)
 Text.Size = UDim2.new(0, 300, 0, 100)
 Text.ZIndex = 3 
 Text.Font = Enum.Font.SourceSans
 Text.Text = "Have fun rejoining to remove this from your screen!"
 Text.TextColor3 = Color3.fromRGB(0, 0, 0)
-Text.TextSize = 20.000
+Text.TextSize = 30.000
 Text.TextWrapped = true
+
+Cover.Name = "Cover"
+Cover.Parent = ScreenGui
+Cover.BackgroundColor3 = Color3.fromRGB(0,0,0)
+Cover.BackgroundTransparency = 1.000
+Cover.Position = UDim2.new(0.000039803, 0, 0.006195326, 0)
+Cover.Size = UDim2.new(0, 400, 0, 190)
+Cover.Image = "rbxassetid://3570695787"
+Cover.ImageColor3 = Color3.new(0,0,0)
+Cover.ScaleType = Enum.ScaleType.Slice
+Cover.SliceCenter = Rect.new(100, 100, 100, 100)
+Cover.SliceScale = 0.120
+Cover.Active = true
+Cover.Draggable = false
+
+CoverText.Name = "CoverText"
+CoverText.Parent = Cover
+CoverText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CoverText.BackgroundTransparency = 1.000
+CoverText.BorderSizePixel = 0
+CoverText.Position = UDim2.new(0.151067543, 0, 0.271926603, 0)
+CoverText.Size = UDim2.new(0, 300, 0, 100)
+CoverText.ZIndex = 3 
+CoverText.Font = Enum.Font.SourceSans
+CoverText.Text = "Can't see chat? Skill issue :)"
+CoverText.TextColor3 = Color3.fromRGB(255, 255, 255)
+CoverText.TextSize = 30.000
+CoverText.TextWrapped = true
 
 
 
